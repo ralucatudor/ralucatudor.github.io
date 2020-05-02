@@ -1,0 +1,12 @@
+body {
+    background: rgb(25,25,25);
+    background: linear-gradient(0deg, rgba(25,25,25,1) 0%, 
+                                      rgba(66,66,66,1) 32%, 
+                                      rgba(97,97,97,1) 100%) fixed;
+
+    /* background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%,rgba(66,66,66,1) 57%, rgba(97,97,97,1) 100%) fixed; */
+
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(42,42,42,1) 27%, rgba(97,97,97,1) 100%) fixed;
+}

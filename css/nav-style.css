@@ -1,0 +1,57 @@
+.nav {
+	position: fixed;
+    left: 0;
+	top: 25%;
+	width: 250px;
+}
+.nav a{
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Petit Formal Script', cursive;
+	font-weight: 900;
+	text-decoration: none;
+	letter-spacing: 1px;
+	/* text-transform: uppercase; */
+	text-align: center;
+	background-color: rgba(106,105,105,1);
+	margin-bottom: 10px;
+	transition: all linear 0.2s;
+    color: rgba(255,255,255,1);
+    
+    border-radius: 0 15px 15px 0;
+}
+
+.nav a:nth-child(1){
+	width: 80%;
+}
+.nav a:nth-child(2){
+	width: 90%;
+}
+.nav a:nth-child(3){
+	width: 70%;
+}
+.nav a:nth-child(4){
+	width: 95%;
+}
+.nav a:nth-child(5){
+	width: 60%;
+}
+.nav a:nth-child(6){
+	width: 70%;
+}
+
+.nav a.active{
+	background-color: #fff;
+	color: #000;
+	width: 100%;
+}
+
+.nav a:hover{
+	width: 100%;
+	background-color: #fff;
+	color: #000;
+}
